@@ -1,10 +1,11 @@
 import "./App.css";
+import { Home } from "./Pages";
 
 function App() {
   return (
     <>
       <div>
-        <button className="btn btn-primary">Button</button>
+        <Home />
       </div>
     </>
   );
