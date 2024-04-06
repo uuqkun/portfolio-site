@@ -70,12 +70,26 @@ button:focus-visible {
 }
 
 /* preset */
-.layout-container { 
-  width: 100%;
+.layout-container {
+  width: 100vw;
+  background-color: red;
 }
 
-.layout { 
-  width: 100%;
+.layout {
+  width: 90%;
   max-width: 1024px;
   margin: 0 auto;
+  background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .layout {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .layout {
+    width: 100%;
+  }
 }
