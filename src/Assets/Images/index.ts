@@ -1,5 +1,5 @@
 // Images
-export { default as HeaderBg } from "./header-bg.jpg";
+export { default as HeaderBg } from "./header-bg.svg";
 export { default as ProfilePict } from "./profile.jpg";
 
 
@@ -13,6 +13,9 @@ export { default as ColoredLinkedIn } from "./colored-linkedin.svg";
 export { default as ColoredTwitter } from "./colored-twitter.svg";
 export { default as PhoneIcon } from "./phone-icon.svg";
 export { default as MapIcon } from "./map-icon.svg";
+export { default as INavOpen } from "./nav-open.svg";
+export { default as INavExit } from "./nav-exit.svg";
+
 
 // Skills & Tools
 export { default as ISExpress } from "./skills/icon-express.svg";
