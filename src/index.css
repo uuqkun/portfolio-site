@@ -71,6 +71,8 @@ button:focus-visible {
 /* preset */
 .layout-container {
   width: 100vw;
+  min-height: 15vh;
+  position: relative;
 }
 
 .layout {

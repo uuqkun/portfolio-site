@@ -1,5 +1,5 @@
 // Images
-export { default as HeaderBg } from "./header-bg.svg";
+export { default as HeaderBg } from "./header-bg.jpg";
 export { default as ProfilePict } from "./profile.jpg";
 
 

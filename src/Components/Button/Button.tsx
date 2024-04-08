@@ -5,7 +5,7 @@ interface IButtonProps {
 
 const Button = ({ text, variant}: IButtonProps) => {
   return (
-    <button type="button" className={`btn ${variant} font-normal`}>
+    <button type="button" className={`btn ${variant} font-semibold`}>
       {text}
     </button>
   );

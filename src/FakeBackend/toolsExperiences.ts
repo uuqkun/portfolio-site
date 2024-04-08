@@ -16,35 +16,79 @@ import {
 } from "../Assets/Images";
 
 export const tools = [
-  { icon: ISExpress, url: "https://expressjs.com/", name: "Express" },
-  { icon: ISFigma, url: "https://www.figma.com/", name: "Figma" },
-  { icon: ISGit, url: "https://git-scm.com/", name: "Git" },
+  {
+    icon: ISExpress,
+    url: "https://expressjs.com/",
+    name: "Express",
+    topSkill: true,
+  },
+  {
+    icon: ISFigma,
+    url: "https://www.figma.com/",
+    name: "Figma",
+    topSkill: false,
+  },
+  { icon: ISGit, url: "https://git-scm.com/", name: "Git", topSkill: false },
   {
     icon: ISJavaScript,
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     name: "JavaScript",
+    topSkill: false,
   },
-  { icon: ISMongo, url: "https://www.mongodb.com/", name: "MongoDB" },
-  { icon: ISNest, url: "https://nestjs.com/", name: "NestJS" },
-  { icon: ISNextJS, url: "https://nextjs.org/", name: "Next.js" },
-  { icon: ISNode, url: "https://nodejs.org/", name: "Node.js" },
+  {
+    icon: ISMongo,
+    url: "https://www.mongodb.com/",
+    name: "MongoDB",
+    topSkill: false,
+  },
+  { icon: ISNest, url: "https://nestjs.com/", name: "NestJS", topSkill: false },
+  {
+    icon: ISNextJS,
+    url: "https://nextjs.org/",
+    name: "Next.js",
+    topSkill: false,
+  },
+  {
+    icon: ISNode,
+    url: "https://nodejs.org/",
+    name: "Node.js",
+    topSkill: false,
+  },
   {
     icon: ISPostgreSQL,
     url: "https://www.postgresql.org/",
     name: "PostgreSQL",
+    topSkill: false,
   },
-  { icon: ISReact, url: "https://reactjs.org/", name: "React" },
-  { icon: ISSass, url: "https://sass-lang.com/", name: "Sass" },
-  { icon: ISSocket, url: "https://socket.io/", name: "Socket.io" },
+  {
+    icon: ISReact,
+    url: "https://reactjs.org/",
+    name: "React",
+    topSkill: true,
+  },
+  {
+    icon: ISSass,
+    url: "https://sass-lang.com/",
+    name: "Sass",
+    topSkill: true,
+  },
+  {
+    icon: ISSocket,
+    url: "https://socket.io/",
+    name: "Socket.io",
+    topSkill: false,
+  },
   {
     icon: ISTailwindCSS,
     url: "https://tailwindcss.com/",
     name: "Tailwind CSS",
+    topSkill: true,
   },
   {
     icon: ISTypeScript,
     url: "https://www.typescriptlang.org/",
     name: "TypeScript",
+    topSkill: true,
   },
 ];
 
