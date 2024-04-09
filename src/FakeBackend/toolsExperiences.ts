@@ -70,7 +70,7 @@ export const tools = [
     icon: ISSass,
     url: "https://sass-lang.com/",
     name: "Sass",
-    topSkill: true,
+    topSkill: false,
   },
   {
     icon: ISSocket,
@@ -97,55 +97,44 @@ export const experiences = [
     title: "Backend Developer Intern",
     company: "Zegasoft",
     date: {
-      start: "March 2024",
+      start: "Mar, 2024",
       end: "Present",
     },
     location: "Remote",
-    descriptions: [
-      "Developed RESTful API, designed the environment, and implemented database design.",
-      "Collaborated closely with the frontend team to overcome challenges and ensure smooth integration.",
-      "Successfully deployed and documented RESTful APIs for frontend team consumption",
-    ],
+    descriptions:
+      "played a key role in building the application's backend by developing a RESTful API, designing the system's environment, and implementing the database structure.",
   },
   {
     title: "Backend Developer Intern",
     company: "PT. Ekata Technology Indonesia",
     date: {
-      start: "December 2023",
-      end: " February 2024",
+      start: "Dec, 2023",
+      end: " Feb, 2024",
     },
     location: "Remote",
-    descriptions: [
-      "Developed RESTful API, designed the environment, and implemented database design.",
-      "Collaborated closely with the frontend team to overcome challenges and ensure smooth integration.",
-      "Successfully deployed and documented RESTful APIs for frontend team consumption",
-    ],
+    descriptions:
+      "Built the application's backend, developing a RESTful API, designing its environment, and implementing the database. ",
   },
   {
     title: "Practicum Teaching Assistant",
     company: "UIN Maulana Malik Ibrahim Malang",
     date: {
-      start: "August 2023",
-      end: "December 2023",
+      start: "Aug, 2023",
+      end: "Dec, 2023",
     },
     location: "Onsite",
-    descriptions: [
-      "Teaching core concepts of Algorithm & Programming using Java",
-      "Develop case studies for each meeting",
-    ],
+    descriptions:
+      "Teaching core concepts of Algorithm & Programming using Java and develop case studies for each meeting.",
   },
   {
     title: "Frontend Developer Intern",
     company: "Core Initiative Studio",
     date: {
-      start: "August 2023",
-      end: "September 2023",
+      start: "Aug, 2023",
+      end: "Sep, 2023",
     },
     location: "Remote",
-    descriptions: [
-      "Applying JavaScript advanced concepts such as AJAX, forms, and API call",
-      "Developed a unit test for the website using Jest",
-      "Built a modern website using Vue JS and deployed it as a final project",
-    ],
+    descriptions:
+      "For my final project, I built a modern website utilizing Vue.js, employing advanced JavaScript concepts like AJAX, forms, and API calls to create a dynamic and interactive user experience. ",
   },
 ];

@@ -18,7 +18,11 @@ export default {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        'icon': '0 6px 15px rgba(0, 0, 0, 0.05)'
+      }
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
