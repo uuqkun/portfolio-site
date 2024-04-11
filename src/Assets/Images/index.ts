@@ -1,7 +1,8 @@
 // Images
 export { default as HeaderBg } from "./header-bg.jpg";
 export { default as ProfilePict } from "./profile.jpg";
-
+export { default as PreviewNetbook } from "./preview-netbook.png";
+export { default as PreviewCarhub } from "./preview-sub-carhub.png";
 
 // Logos
 export { default as NavbarLogo } from "./navbar-logo.svg";

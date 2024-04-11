@@ -9,7 +9,7 @@ const Header = () => {
       <img
         src={HeaderBg}
         alt="Header background"
-        className="absolute top-0 left-0 w-full h-full -z-[999] object-cover object-left lg:object-center"
+        className="absolute top-0 left-0 w-full h-full -z-[999] object-cover lg:object-fill object-left lg:object-center"
       />
       <header className="layout flex justify-center">
         {/* header content */}

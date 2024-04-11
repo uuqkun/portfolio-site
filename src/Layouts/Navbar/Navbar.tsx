@@ -51,17 +51,21 @@ const Navbar = () => {
             </li>
           ))}
           <Button
-            text="achmadfurqonrachmadie@gmail.com"
+            text="Email me"
             variant="btn-primary text-white"
+            onClick={() =>
+              window.open(`mailto:${userProfile.email[2]}`, "_blank")
+            }
           />
         </ul>
         <div className="hidden md:flex md:navbar-end">
-          <a
-            href={`mailto:${userProfile.email[2]}`}
-            className="btn btn-primary text-white hover:text-white"
-          >
-            Email me
-          </a>
+          <Button
+            text="Email me"
+            variant="btn-primary text-white"
+            onClick={() =>
+              window.open(`mailto:${userProfile.email[2]}`, "_blank")
+            }
+          />
         </div>
       </nav>
     </div>
