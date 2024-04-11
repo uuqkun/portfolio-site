@@ -1,6 +1,14 @@
+import { useEffect } from "react";
 import { experiences, tools } from "../../FakeBackend/toolsExperiences";
+import { spinningIcon } from "../../Services/Utils/toolsExperiences";
 
 const ToolsExperiences = () => {
+  useEffect(() => {
+    return () => {
+      spinningIcon();
+    }  
+  }, [])
+  
   return (
     <div className="layout-container" id="experiences">
       <main className="layout">
@@ -15,7 +23,7 @@ const ToolsExperiences = () => {
               .map((tool, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center justify-center gap-2 w-[86px] md:w-24 md:h-24 lg:w-28 lg:h-28 rounded-lg p-2 shadow-icon"
+                  className="tool-icon flex flex-col items-center justify-center gap-2 w-[86px] md:w-24 md:h-24 lg:w-28 lg:h-28 rounded-lg p-2 shadow-icon"
                 >
                   <div>
                     <img
@@ -34,7 +42,7 @@ const ToolsExperiences = () => {
           <div className="m-auto lg:m-0">
             <div className="w-full m-auto">
               {experiences.map((exp, index) => (
-                <div className="flex justify-between mb-5 border-b-[1px] border-gray-200 pb-8" key={index}>
+                <a href={exp.company.url} target="_blank" className="flex justify-between mb-5 border-b-[1px] border-gray-200 pb-8 px-4 hover:shadow-icon hover:text-inherit hover:scale-105 transition-all" key={index}>
                   <div className="w-[200px]">
                     <p className="text-primary font-semibold">{exp.date.end}</p>
                   </div>
@@ -42,9 +50,9 @@ const ToolsExperiences = () => {
                     <p className="font-bold text-base lg:text-lg">
                       {exp.title}
                     </p>
-                    <p>{exp.company}</p>
+                    <a href={exp.company.url}>{exp.company.name}</a>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </div>

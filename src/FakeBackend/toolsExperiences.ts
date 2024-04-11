@@ -17,9 +17,27 @@ import {
 
 export const tools = [
   {
+    icon: ISMongo,
+    url: "https://www.mongodb.com/",
+    name: "MongoDB",
+    topSkill: true,
+  },
+  {
     icon: ISExpress,
     url: "https://expressjs.com/",
     name: "Express",
+    topSkill: true,
+  },
+  {
+    icon: ISReact,
+    url: "https://reactjs.org/",
+    name: "React",
+    topSkill: true,
+  },
+  {
+    icon: ISNode,
+    url: "https://nodejs.org/",
+    name: "Node.js",
     topSkill: true,
   },
   {
@@ -35,12 +53,6 @@ export const tools = [
     name: "JavaScript",
     topSkill: false,
   },
-  {
-    icon: ISMongo,
-    url: "https://www.mongodb.com/",
-    name: "MongoDB",
-    topSkill: false,
-  },
   { icon: ISNest, url: "https://nestjs.com/", name: "NestJS", topSkill: false },
   {
     icon: ISNextJS,
@@ -49,22 +61,10 @@ export const tools = [
     topSkill: false,
   },
   {
-    icon: ISNode,
-    url: "https://nodejs.org/",
-    name: "Node.js",
-    topSkill: false,
-  },
-  {
     icon: ISPostgreSQL,
     url: "https://www.postgresql.org/",
     name: "PostgreSQL",
     topSkill: false,
-  },
-  {
-    icon: ISReact,
-    url: "https://reactjs.org/",
-    name: "React",
-    topSkill: true,
   },
   {
     icon: ISSass,
@@ -82,20 +82,24 @@ export const tools = [
     icon: ISTailwindCSS,
     url: "https://tailwindcss.com/",
     name: "Tailwind CSS",
-    topSkill: true,
+    topSkill: false,
   },
   {
     icon: ISTypeScript,
     url: "https://www.typescriptlang.org/",
     name: "TypeScript",
-    topSkill: true,
+    topSkill: false,
   },
 ];
 
 export const experiences = [
   {
     title: "Backend Developer Intern",
-    company: "Zegasoft",
+    company: {
+      name: "Zegasoft", 
+      url: "https://www.linkedin.com/company/zegasoft/"
+
+    },
     date: {
       start: "Mar, 2024",
       end: "Present",
@@ -106,7 +110,11 @@ export const experiences = [
   },
   {
     title: "Backend Developer Intern",
-    company: "PT. Ekata Technology Indonesia",
+    company: {
+      name: "PT. Ekata Technology Indonesia", 
+      url: "https://www.linkedin.com/company/ekata-tech/"
+
+    },
     date: {
       start: "Dec, 2023",
       end: " Feb, 2024",
@@ -117,7 +125,11 @@ export const experiences = [
   },
   {
     title: "Practicum Teaching Assistant",
-    company: "UIN Maulana Malik Ibrahim Malang",
+    company: {
+      name: "UIN Maulana Malik Ibrahim Malang", 
+      url: "https://www.linkedin.com/company/uin-maulana-malik-ibrahim-malang/"
+
+    },
     date: {
       start: "Aug, 2023",
       end: "Dec, 2023",
@@ -128,7 +140,11 @@ export const experiences = [
   },
   {
     title: "Frontend Developer Intern",
-    company: "Core Initiative Studio",
+    company: {
+      name: "Core Initiative Studio", 
+      url: "https://www.linkedin.com/company/core-initiative-studio/"
+
+    },
     date: {
       start: "Aug, 2023",
       end: "Sep, 2023",

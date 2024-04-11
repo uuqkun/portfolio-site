@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import { HeaderBg, MapIcon, ProfilePict } from "../../Assets/Images";
 import { Button } from "../../Components";
 import { tools } from "../../FakeBackend/toolsExperiences";
-import { handleDownloadCV } from "./utils";
+import { handleDownloadCV, spinningIcon } from "../../Services/Utils/header";
 
 const Header = () => {
+  useEffect(() => {
+    spinningIcon();  
+  }, [])
+  
   return (
     <div className="layout-container" id="home">
       <img
@@ -50,7 +55,7 @@ const Header = () => {
               <a
                 href={tool.url}
                 key={index}
-                className="w-8 h-8 lg:w-10 lg:h-10 hover:scale-110 transition-all"
+                className="top-skill w-8 h-8 lg:w-10 lg:h-10 hover:scale-110 transition-all"
               >
                 <img
                   src={tool.icon}
