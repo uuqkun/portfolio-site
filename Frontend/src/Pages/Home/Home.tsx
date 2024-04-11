@@ -1,5 +1,4 @@
 import {
-  CTA,
   CaseStudy,
   Footer,
   Header,

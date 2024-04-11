@@ -1,9 +1,7 @@
 import {
-  ArrowRight,
   EvenCaseStudy,
   FooterGithub,
   OddCaseStudy,
-  PreviewNetbook,
 } from "../../Assets/Images";
 import { Button } from "../../Components";
 import { cases } from "../../FakeBackend/studyCase";
