@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <ToolsExperiences />
       <CaseStudy />
-      <CTA />
+      {/* <CTA /> */}
       <Footer />
     </div>
   );
